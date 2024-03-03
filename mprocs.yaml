@@ -1,0 +1,5 @@
+procs:
+  tailwind:
+    cmd: ["npx", "tailwind", "-i", "style.scss", "-o", "style.css", "-mw"]
+  http:
+    cmd: ["python", "-m", "http.server"]
